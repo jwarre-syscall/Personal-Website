@@ -6,25 +6,43 @@
    <title>My Website</title>
 
    <style>
-      nav a:hover {
-         color: #8A2BE2 !important;
+      .nav-link {
+      color: white;
+      margin: 0 20px;
+      text-decoration: none;
+      font-size: 18px;
+      transition: 0.3s;
       }
+
+      .nav-link:hover {
+         color: #8A2BE2;
+      }
+
       address a:hover {
-         color: #8A2BE2 !important;
+         color: #8A2BE2;
+      }
+
+      .header-link {
+         color: white;
+         text-decoration: none;
+      }
+
+      .header-link:hover {
+         color: #8A2BE2;
       }
    </style>
 </head>
 <body style="background-color:#07001B;">
    <h1 style="color:white; text-align:center;">
-      <a href="index.html" style= "color:white; text-decoration:none;">Jerome Warren</a>
+      <a href="index.html" class="header-link">Jerome Warren</a>
    </h1>
 
    <nav style="text-align:center; margin:20px 0;">
-   <a href="about.html" style="color:white; margin:0 20px; text-decoration:none; font-size:18px; transition:0.3s;">About</a>
-   <a href="experience.html" style="color:white; margin:0 20px; text-decoration:none; font-size:18px; transition:0.3s;">Experience</a>
-   <a href="education.html" style="color:white; margin:0 20px; text-decoration:none; font-size:18px; transition:0.3s;">Education</a>
-   <a href="projects.html" style="color:white; margin:0 20px; text-decoration:none; font-size:18px; transition:0.3s;">Projects</a>
-   <a href="skills.html" style="color:white; margin:0 20px; text-decoration:none; font-size:18px; transition:0.3s;">Skills</a>
+   <a href="about.html" class="nav-link">About</a>
+   <a href="experience.html" class="nav-link">Experience</a>
+   <a href="education.html" class="nav-link">Education</a>
+   <a href="projects.html" class="nav-link">Projects</a>
+   <a href="skills.html" class="nav-link">Skills</a>
    </nav>
 
    <hr style="margin-top:20px;">
